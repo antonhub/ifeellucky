@@ -1,5 +1,7 @@
 ## IfeelLucky test task
 
+<a href="https://github.com/antonhub/ifeellucky/commit/99d1b806a68c82fadbfaac56a06d80f1eae2958c">Это коммит для проверки кода</a>. В нем весь код, что я написал для требуемого функционала.
+
 **Run the following commands to setup the project on your local environment:**
 ```
 git clone https://github.com/antonhub/ifeellucky.git && cd ifeellucky && composer install && composer run-script post-root-package-install && php artisan key:generate && npm install && npm run build && php artisan config:clear && php artisan migrate && php artisan serve
