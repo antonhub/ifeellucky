@@ -12,7 +12,7 @@
 9. `php artisan migrate`
 10. `php artisan serve`
 
-<p>*Alternatively you can run the same commands as one line command:*</p>
+**Alternatively you can run the same commands as one line command:**
 ```
 git clone https://github.com/antonhub/ifeellucky.git && cd ifeellucky && composer install && composer run-script post-root-package-install && php artisan key:generate && npm install && npm run build && php artisan config:clear && php artisan migrate && php artisan serve
 ```
