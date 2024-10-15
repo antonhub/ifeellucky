@@ -1,18 +1,21 @@
 ## IfeelLucky test task
 
 *Steps to run the project on your local environment:*
-1. git clone https://github.com/antonhub/ifeellucky.git
-2. cd ifeellucky
-3. composer install
-4. composer run-script post-root-package-install
-5. npm install
-6. npm run build
-7. php artisan config:clear
-8. php artisan migrate
-9. php artisan serve
+1. `git clone https://github.com/antonhub/ifeellucky.git`
+2. `cd ifeellucky`
+3. `composer install`
+4. `composer run-script post-root-package-install`
+5. `php artisan key:generate`
+6. `npm install`
+7. `npm run build`
+8. `php artisan config:clear`
+9. `php artisan migrate`
+10. `php artisan serve`
 
-*Alternatively you can run the same commands as one line command:*
-```git clone https://github.com/antonhub/ifeellucky.git && cd ifeellucky && composer install && composer run-script post-root-package-install && npm install && npm run build && php artisan config:clear && php artisan migrate && php artisan serve```
+<p>*Alternatively you can run the same commands as one line command:*</p>
+```bash
+git clone https://github.com/antonhub/ifeellucky.git && cd ifeellucky && composer install && composer run-script post-root-package-install && php artisan key:generate && npm install && npm run build && php artisan config:clear && php artisan migrate && php artisan serve
+```
 
 Now you can test IfeelLucky functionality in your browser by the <a href="http://localhost:8000/">*following link*</a>
 
